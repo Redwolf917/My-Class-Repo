@@ -37,6 +37,13 @@
 | [06-Stu_HTML](activities/06-Stu_HTML)  	| HTML - activity |
 | [07-Ins_Attributes](activities/07-Ins_Attributes) | Introduction to attributes |
 | [08-Stu_Attributes](activities/08-Stu_Attributes)  	| Attributes - activity |
+| [09-review-HTML_Tags](activities/09-review-HTML_Tags)  | Review HTML Tags |
+| [10-Stu_FixThe_HTML](activities/10-Stu_FixThe_HTML)  	| The Browser Renders Broken HTML |
+| [11-Ins_CSS-color](activities/11-Ins_CSS-color)  | Introduction to CSS color |
+| [12-Stu_CSS-color](activities/12-Stu_CSS-color)  	| CSS color - activity |
+| [13-Ins_CSS-units-font](activities/13-Ins_CSS-units-font)  	| Introduction to CSS font |
+| [14-Stu_CSS-units-font](activities/14-Stu_CSS-units-font)  	| CSS Font - activity |
+
 
 
 
