@@ -72,6 +72,8 @@ This is an autograded assignment, meaning that you will follow the link below to
 
 > **note** If you need any assistance with the Ed platform, please review the information on submitting assignments in Module 0.
 
+* **Submission**: You'll submit your completed Challenge for review. In the real world, when a developer finishes working on a project, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met. For each Challenge, you will need to be your Quality Assurance. Check to make sure you have met all acceptance criteria prior to your submission for review.
+
 ## Grading Requirements
 
 This Challenge is graded based on the following criteria: 
