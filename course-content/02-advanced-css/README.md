@@ -39,7 +39,16 @@
 | [08-Stu_Flexbox-Placement](activities/08-Stu_Flexbox-Placement)  	| Flexbox properties activities |
 | [09-Ins_Box-Styling](activities/09-Ins_Box-Styling)  | CSS Transform Property |
 | [10-Stu_Box-Styling](activities/10-Stu_Box-Styling)  	| CSS Transform Property Activity |
-
+| [11-Ins_CSS-Resets](activities/11-Ins_CSS-Resets)  	| Introduction to CSS Resets |
+| [12-Stu_CSS-Resets](activities/12-Stu_CSS-Resets)  	| CSS Resets activity |
+| [13-Ins_Typography](activities/13-Ins_Typography)  	| Typography |
+| [14-Stu_Typography](activities/14-Stu_Typography)  	| Typography activity |
+| [15-Ins_Pseudo-Classes](activities/15-Ins_Pseudo-Classes)  	| Introduction to Pseudo Classes |
+| [16-Stu_Pseudo-Classes](activities/16-Stu_Pseudo-Classes)  	| Pseudo Classes activity |
+| [17-Ins_Pseudo-Elements](activities/17-Ins_Pseudo-Elements)  	| Introduction to Pseudo elements |
+| [18-Stu_Pseudo-Elements](activities/18-Stu_Pseudo-Elements)  	| Pseudo elements activity |
+| [19-Ins_Form-Styles](activities/19-Ins_Form-Styles)  	| Introduction to Form Styles |
+| [20-Stu_Custom-Forms](activities/20-Stu_Custom-Forms)  	| Custom Forms |
 
 
 
