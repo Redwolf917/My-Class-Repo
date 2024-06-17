@@ -18,11 +18,11 @@
 
 
 -----
-### :pencil: **[Challenge](challenge/README.md#unit-03-javascript-password-generator)**
+### :pencil: **[Challenge](challenge/README.md)**
 
-- JavaScript Challenge: Password Generator
-[Homework Instructions Link](challenge/README.md#unit-03-javascript-password-generator)
-    * Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
+- JavaScript Challenge: Employee Payroll Tracker
+[Homework Instructions Link](challenge/README.md)
+    * Requires you to modify starter code to create an application that enables a payroll manager to view and manage employee payroll data
 
 
 -----
