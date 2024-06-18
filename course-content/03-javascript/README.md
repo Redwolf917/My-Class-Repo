@@ -40,6 +40,18 @@
 |[08-Stu_Logical-Comparison](activities/08-Stu_Logical-Comparison-Operators)| Logical expression activity|
 |[09-Ins_Conditional-Statements](activities/09-Ins_Conditional-Statements)| Introduction to conditional statements|
 |[10-Stu_Conditional-Statements](activities/10-Stu_Conditional-Statements)| Conditional activity|
+|[11-Ins_Arrays](activities/11-Ins_Arrays)| Introduction to arrays |
+|[12-Stu_Arrays](activities/12-Stu_Arrays)| Arrays activity|
+|[13-Ins_Iteration](activities/13-Ins_Iteration)| Introduction to `for` loops |
+|[14-Stu_Iteration](activities/14-Stu_Iteration) | `for` loop activity |
+|[15-Ins_Functions](activities/15-Ins_Functions)| Introduction to functions |
+|[16-Stu_Functions](activities/16-Stu_Functions)| Functions activity |
+|[17-Ins_Scope](activities/17-Ins_Scope)| Introduction to scope |
+|[18-Stu_Scope](activities/18-Stu_Scope)| Scope activity |
+|[19-Ins_Methods](activities/19-Ins_Methods)| Introduction to methods |
+|[20-Stu_Methods](activities/20-Stu_Methods)| Methods activity |
+
+
 
 
 
