@@ -32,4 +32,9 @@ console.log(`My teacher's name is ${teacherName}`);
 console.log("My name is " + studentName + ". My age is " + age);//Uncaught ReferenceError: age is not defined
 
 // Traditionally, the var keyword was used to create variables, but modern javaScript has replaced it with let/const
-var teacherAge = 48;
+var teacherAge = 21;
+
+var DONOTCHANGE = 42;
+
+const notGonnnaChange = 42;
+
