@@ -1,11 +1,11 @@
-var a = "50";
-var b = 50;
-var c = 100;
-var d = c % b;
-var e = c / 2;
+const a = '50';
+const b = 50;
+const c = 100;
+const d = c % b;
+const e = c / 2;
 
-var expression1 = (b === e);
-var expression2 = (e < d);
+const expression1 = (b === e);
+const expression2 = (e < d);
 
 // Use comparison operators so all expressions below log to the console as true
 console.log(a === b);
@@ -15,6 +15,5 @@ console.log(d > 0);
 
 // Use logical operators so all expressions below log to the console as true
 console.log(expression1 && expression2);
-console.log( !expression1 || expression2);
-
-
+console.log(!expression1 || expression2);
+  

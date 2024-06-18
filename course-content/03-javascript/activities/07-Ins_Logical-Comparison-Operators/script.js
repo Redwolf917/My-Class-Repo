@@ -1,7 +1,6 @@
-var a = 100;
-var b = 10;
-var c = "10";
-
+const a = 100;
+const b = 10;
+const c = '10';
 
 // Arithmetic operators combine with numbers to form an expression that returns a single number
 console.log(a + b);//110
@@ -109,6 +108,3 @@ console.log(false && "I am also truthy");//false - both need to be true - return
 console.log(false && 0);//false - both need to be true - return second value
 console.log(0 && false);//0 - both need to be true - return second value
 console.log(undefined && 0);//undefined - both need to be true - return second value
-
-
-

@@ -1,4 +1,4 @@
-# 🏗️ Log Introduction Messages to Console Using Values Stored in Variables 
+# 🏗️ Log Introduction Messages to Console Using Values Stored in Variables
 
 Work with a partner to implement the following user story:
 
@@ -6,26 +6,26 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I store a name in a variable called `myName` and this line is logged to the console: "My name is `VALUE_STORED_IN_VARIABLE_NAME`."
+* It's done when I store a name in a variable called `personName` and this line is logged to the console: "My name is `VALUE_STORED_IN_VARIABLE_NAME`."
 
 * It's done when I store a number in a variable called `pets` and this line is logged to the console: "I have `VALUE_STORED_IN_VARIABLE_PETS` pet(s)."
 
 * It's done when I store a fun fact in a variable called `funFact` and this line is logged to the console: "Fun fact: `VALUE_STORED_IN_VARIABLE_FUNFACT`."
 
-* It's done when I reassign the values of `myName`, `pets`, and `funFact` with my new partner's information and the logs in the console reflect the new values.
+* It's done when I reassign the values of `personName`, `pets`, and `funFact` with my new partner's information and the logs in the console reflect the new values.
 
 ## 💡 Hints
 
-How can we combine values using the concatenation operator (`+`) to log a single message to the console?
+How can we combine values using the template literal syntax to log a single message to the console?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What happens when you concatenate two variables in a single console log using `+`? Is the result what you expected? Why or why not? 
+* What happens when you concatenate two variables in a single console log using `+`? Is the result what you expected? Why or why not?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

@@ -2,15 +2,15 @@
 
 Work with a partner to implement the following user story:
 
-* As a developer, I want to link an external JavaScript file to an existing `index.html` file to add JavaScript functionality to my static webpage. 
+* As a developer, I want to link an external JavaScript file to an existing `index.html` file to add JavaScript functionality to my static webpage.
 
 ## Acceptance Criteria
 
-* It's done when I open the `index.html` file, navigate to the console, and see the message contained in the `script.js` file logged to the console. 
+* It's done when I open the `index.html` file, navigate to the console, and see the message contained in the `script.js` file logged to the console.
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 [MDN Web Docs on the script element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
@@ -18,7 +18,7 @@ Refer to the documentation:
 
 ## 💡 Hints
 
-It is best practice to add a link to an external JavaScript file above what closing HTML tag? 
+It is best practice to add a link to an external JavaScript file above what closing HTML tag?
 
 ## 🏆 Bonus
 
@@ -30,4 +30,4 @@ Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

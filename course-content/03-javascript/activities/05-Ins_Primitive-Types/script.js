@@ -1,57 +1,46 @@
-//Primitive data types include undefined, string, number and boolean
-//Undefined variables haven't been assigned values yet.
-//In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods. 
-//There are 7 primitive data types: 
-//string, number, bigint(number), boolean, undefined, symbol, and null.
+// Primitive data types include undefined, string, number, boolean and null
+// Undefined variables haven't been assigned values yet.
+let myUndefined;
 
-var myUndefined;
-// var myUndefined = undefined;
+// A string is a series of characters and is surrounded by quotes
+const myStringWelcome = 'Hello World';
+const myStringWelcomeAlt = 'Hello World\'s'; 
+const myStringPassword = '865Password!2020';
 
-// A string is a series of characters and is surrounded by quotes 
-var myStringWelcome = "Hello World's"; 
-myStringWelcome = 'Hello World\'s'; 
-var myStringPassword = "865Password!2020";
 
-// A number can be either an integer or a decimal  
-var myNumberInt = 100;
-var myNumberDecimal = 100.100;
+// A number can be either an integer or a decimal
+const myNumberInt = 100;
+const myNumberDecimal = 100.100;
 
 // Booleans have two values: true or false
-var isMyBooleanTrue = true;
-var isMyBooleanFalse = false;
+const isMyBooleanTrue = true;
+const isMyBooleanFalse = false;
 
-//  isMyBooleanFalse = "yep";
+// Null is both a value and type.  It represents the concept of nothing. This differs from undefined, which is an unknown value. Null is known to be nothing.
+const myNull = null;
 
 // To check the type of data, use typeof followed by the name of the variable
 // Logs undefined
 console.log(typeof myUndefined);
 
 // Logs number
-console.log(typeof myNumberInt); //number
-console.log(typeof myNumberDecimal); //number
+console.log(typeof myNumberInt);
 
 // Logs boolean
-console.log(typeof isMyBooleanTrue);
+console.log(typeof true);
 
 // Logs string
-console.log(typeof myStringWelcome);
+console.log(typeof 'Howdy');
 
-
-//logs Object!?! 
-var nothing = null;
-console.log(typeof nothing);
-//Null. In JavaScript null is "nothing". ... Unfortunately, in JavaScript, the data type of null is an object. 
-//You can consider it a bug in JavaScript that typeof null is an object.
-
+//logs null
+console.log(typeof myNull);
 
 // Pro-tip: JavaScript is loosely typed, so the type is tied to the value held in the variable, not the variable itself!
-//In programming we call a language loosely typed when you don't have to explicitly specify types of variables 
-//JavaScript, Python and Ruby are loosely typed
-
 // Logs number
-var myVariable = 33;
+let myVariable = 33;
 console.log(typeof myVariable);
 
 // myVariable is reassigned; Logs boolean
 myVariable = false;
 console.log(typeof myVariable);
+

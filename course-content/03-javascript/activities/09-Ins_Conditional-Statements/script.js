@@ -1,6 +1,6 @@
-var hungerLevel = 50;
-var isLunchTime = true;
-var lunchBill = 11;
+const hungerLevel = 50;
+const isLunchTime = true;
+const lunchBill = 11;
 
 // If statement
 // Evaluates to true so "Hungry" is logged
@@ -105,5 +105,3 @@ if(content === 'no'){
 }else if (content === 'yes'){
   console.log("yes, I am content");
 };
-
-
