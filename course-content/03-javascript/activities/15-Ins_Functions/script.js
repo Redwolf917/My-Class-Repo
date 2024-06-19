@@ -4,7 +4,7 @@ function declareHello() {
   console.log('Hello, I am a function declaration.');
   console.log('-----------------------------------');
   // Return stops the execution of a function
-  return;
+  return ;
 }
 
 // This is a function expression
@@ -180,7 +180,7 @@ function iTakeArgs(num, str, params){
 // [13, "cat",["arr"]]
 iTakeArgs(13, "cat", ["arr"])
 
-function iTakeArgsToo(nums, str, params, cb){
+function iTakeArgsToo(nums, sr, patrams, cb){
   console.log(nums, str, params)
   cb([nums, str, params]);
 };

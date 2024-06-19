@@ -21,6 +21,7 @@ console.log(names[3]);
 
 //Replaces 'Olivia' with 'Carter'
 names[3] = "Faye"; 
+names[names.length] = "Faye"; 
 
 // Logs 'The fourth name is Carter.'
 console.log(`The fourth name is ${names[3]}.`);
@@ -44,7 +45,7 @@ if(names[0] === "Wittles"){
 }
 
 
-var temp = names[0];//'Wittles'
+let temp = names[0];//'Wittles'
 
 names[0] = names[2];//['Sage', 'Asher', 'Sage', 'Faye', 'Bob']
 
