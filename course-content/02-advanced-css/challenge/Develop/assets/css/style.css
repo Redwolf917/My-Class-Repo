@@ -88,7 +88,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -174,8 +174,8 @@ main {
 
 /* feature first portfolio item */
 .flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+  min-height: 400px;
+  flex-basis: 100%;
 }
 
 .flex-item:hover {
@@ -220,10 +220,74 @@ main {
 }
 
 /* portfolio project images */
-/* TODO: Add portfolio project images here*/
+.flex-item:nth-child(1) {
+  background-image: url('images/image1.jpg');
+}
+
+.flex-item:nth-child(2) {
+  background-image: url('images/image2.jpg');
+}
+
+.flex-item:nth-child(3) {
+  background-image: url('images/image3.jpg');
+}
+
+.flex-item:nth-child(4) {
+  background-image: url('images/image4.jpg');
+}
+
+.flex-item:nth-child(5) {
+  background-image: url('images/image5.jpg');
+}
+
+.my-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 /* media queries */
 
-/* TODO: add media query for a max-width of 980px */
+@media (max-width: 980px) {
+  .page-section > h2 {
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 0;
+    border: none;
+  }
 
-/* TODO: add media query for a max-width of 768px */
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+
+  .flex-item {
+    flex-basis: calc(50% - 1em);
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 6vw;
+  }
+
+  nav a {
+    font-size: 1.2rem;
+  }
+
+  .hero-banner {
+    min-height: 25vh;
+  }
+
+  .hero-banner h2 {
+    font-size: 2rem;
+  }
+
+  .flex-item {
+    flex-basis: calc(100% - 1em);
+  }
+
+  .flex-item:first-child {
+    min-height: 250px;
+  }
+}
