@@ -29,8 +29,8 @@ imageContainer.addEventListener('click', function (event) {
     } else {
       // Change the attributes back to their non-animated values
       // element.getAttribute("data-state");
-      element.dataset.state = "still";
-      // element.setAttribute("src", element.dataset.still);
+      // element.dataset.state = "still";
+      element.setAttribute("src", element.dataset.still);
       element.setAttribute("src", element.getAttribute("data-still"));
     }
   }
