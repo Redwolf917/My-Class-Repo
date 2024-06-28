@@ -11,9 +11,9 @@ function log(str) {
 }
 
 console.log("==================== Question 01 ====================");
-var one = setTimeout(log("Question1-1"), 1000 * 5);
-var two = setTimeout(log("Question1-2"), 1000 * 6);
-var three = setTimeout(log("Question1-3"), 1000 * 7);
+const one = setTimeout(log("Question1-1"), 1000 * 5);
+const two = setTimeout(log("Question1-2"), 1000 * 6);
+const three = setTimeout(log("Question1-3"), 1000 * 7);
 
 // remove the timers `one`, `two`, and `three`
 
@@ -55,7 +55,7 @@ console.log("==================== Question 04 ====================");
 
 
 console.log("==================== Question 05 ====================");
-var alertArray = [
+const alertArray = [
   setTimeout(log("Question5-1"), 1000 * 5),
   setTimeout(log("Question5-2"), 1000 * 5),
   setTimeout(log("Question5-3"), 1000 * 5),

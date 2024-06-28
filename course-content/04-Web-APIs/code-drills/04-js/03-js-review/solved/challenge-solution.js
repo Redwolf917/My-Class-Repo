@@ -63,15 +63,15 @@ function prepend(arr, elem) {
 }
 
 // Testing your `prepend` function
-var test1 = [43, 55, 2, 901, 12, 38];
+let test1 = [43, 55, 2, 901, 12, 38];
 prepend(test1, 79);
 console.log("The first element of the following array should be 79");
 console.log(test1);
-var test2 = ["Hello", 11, true, "39", [1, 9], 55];
+let test2 = ["Hello", 11, true, "39", [1, 9], 55];
 console.log('The first element of the following array should be "Yes"');
 prepend(test2, "Yes");
 console.log(test2);
-var test3 = ["Array", {a: 23, b: "World"}, 85, false, 3];
+let test3 = ["Array", {a: 23, b: "World"}, 85, false, 3];
 prepend(test3, true);
 console.log("The first element of the following array should be true");
 console.log(test3);
@@ -95,11 +95,11 @@ function addToObject(obj, key, arr) {
 }
 
 // Testing your `addToObject` function
-var test1 = {a: 3, b: "Hello", c: true};
+ test1 = {a: 3, b: "Hello", c: true};
 addToObject(test1, "test1", [1, 4]);
 console.log('The value associated with the key "test1" should be [1, 4]');
 console.log(test1);
-var test2 = {keyOne: "Testing", keyTwo: "487", keyThree: 17};
+ test2 = {keyOne: "Testing", keyTwo: "487", keyThree: 17};
 addToObject(test2, "c", [true, "Yes"])
 console.log('The value associated with the key "c" in the following object should be [true, "Yes"]');
 console.log(test2);
@@ -118,9 +118,9 @@ function strToArray(str) {
 
   // -------------------- Your Code Here --------------------
 
-  var arr = [];
-  var currentWord = "";
-  for (var i = 0; i < str.length; i++) {
+  let arr = [];
+  let currentWord = "";
+  for (let i = 0; i < str.length; i++) {
     if ((str[i] === " ") && (currentWord !== "")){
       arr.push(currentWord);
       currentWord = "";
@@ -189,7 +189,7 @@ function getFirstElem(arr) {
 }
 
 // Testing your `getFirstElem` function
-var test1 = [43, 55, 2, 901, 12, 38];
+test1 = [43, 55, 2, 901, 12, 38];
 console.log('This should be 43 ', getFirstElem(test1));
-var test2 = ["Hello", 11, true, "39", [1, 9], 55];
+test2 = ["Hello", 11, true, "39", [1, 9], 55];
 console.log('This should be "Hello"', getFirstElem(test2));

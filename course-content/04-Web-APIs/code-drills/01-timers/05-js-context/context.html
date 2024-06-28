@@ -19,7 +19,7 @@
     <script type="text/javascript">
 
       // We define a person, and include a method that logs his name along with a greeting.
-      var person = {
+      const person = {
         name: "Jeff",
         sayHi: function() {
           console.log("Hi, I'm " + this.name);
@@ -32,11 +32,11 @@
 
       // Hi, I'm Jeff
       // But if we include it in a timeout
-      var name = "Jerome";
+      const name = "Jerome";
       setTimeout(person.sayHi, 500);
 
 
-      var myFunc = function(){
+      const myFunc = function(){
         console.log("*******I was executed******")
         person.sayHi(); //Hi, I'm Jeff
       }

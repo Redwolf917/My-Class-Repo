@@ -1,6 +1,6 @@
 // You have an array of filenames with extensions.
 // Sort the files into arrays based on whether or not they are videos or images.
-var files = [
+const files = [
   "ashers_first_birthday.mov",
   "mr_snuggles_asleep_at_the_computer.jpg",
   "obama_fights_a_polar_bear.mp4",
@@ -25,12 +25,12 @@ var files = [
 // ========
 
 // We set up arrays for all possible file extensions.
-var imageExtensions = ["jpg", "gif", "png", "jpeg"];
-var videoExtensions = ["mov", "avi", "mp4", "mpeg", "mpg"];
+const imageExtensions = ["jpg", "gif", "png", "jpeg"];
+const videoExtensions = ["mov", "avi", "mp4", "mpeg", "mpg"];
 
 // We create empty arrays where we can place our results.
-var images = [];
-var videos = [];
+let images = [];
+let videos = [];
 
 
 // We define an extensionSorter function
@@ -38,7 +38,7 @@ var videos = [];
 function extensionSorter(fileArray) {
 
   // We use a for-loop to cycle through the filename array
-  for (var i = 0; i < fileArray.length; i++) {
+  for (let i = 0; i < fileArray.length; i++) {
 
     
 
@@ -49,7 +49,7 @@ function extensionSorter(fileArray) {
     // with 2 elements: the file's title and it's extension.
     // We then pop the array, which removes the last element (the extension),
     // and returns it. Thus, fileExt now has the value of the extension.
-    var fileExt = fileArray[i].split(".").pop();
+    let fileExt = fileArray[i].split(".").pop();
 
     // Now we check the file extension against our array of possible image extensions.
     if (imageExtensions.indexOf(fileExt) !== -1) {

@@ -27,18 +27,18 @@
   <!-- Script -->
   <script type="text/javascript">
     //  Variable that will hold the button alert's timeout when it is clicked.
-    var delayButtonAlert;
+    let delayButtonAlert;
 
     //  Timeouts in JavaScript
     //  Set our window alert to run one second after the function's called.
 
     //keyword - don't redefine :) 
     // var setTimeout = "something else";
-    var startBtn = document.getElementById("start");
-    var cancelBtn = document.getElementById("cancel");
-    var windowCancelBtn = document.getElementById("window-cancel");
+    const startBtn = document.getElementById("start");
+    const cancelBtn = document.getElementById("cancel");
+    const windowCancelBtn = document.getElementById("window-cancel");
 
-    var windowTimeout = setTimeout(function () {
+    const windowTimeout = setTimeout(function () {
       alert("Alert #1: Called automatically 1 second after page load.");
     }, 1000);
 

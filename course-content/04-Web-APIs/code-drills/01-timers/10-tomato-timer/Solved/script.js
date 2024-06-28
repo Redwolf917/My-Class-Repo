@@ -1,26 +1,24 @@
-var statusSpan = document.querySelector("#status");
-var statusToggle = document.querySelector("#status-toggle");
-var playButton = document.querySelector("#play");
-var pauseButton = document.querySelector("#pause");
-var stopButton = document.querySelector("#stop");
-var minutesDisplay = document.querySelector("#minutes");
-var secondsDisplay = document.querySelector("#seconds");
-var workMinutesInput = document.querySelector("#work-minutes");
-var restMinutesInput = document.querySelector("#rest-minutes");
+const statusSpan = document.querySelector("#status");
+const statusToggle = document.querySelector("#status-toggle");
+const playButton = document.querySelector("#play");
+const pauseButton = document.querySelector("#pause");
+const stopButton = document.querySelector("#stop");
+const minutesDisplay = document.querySelector("#minutes");
+const secondsDisplay = document.querySelector("#seconds");
+const workMinutesInput = document.querySelector("#work-minutes");
+const restMinutesInput = document.querySelector("#rest-minutes");
 
-var totalSeconds = 0;
-var secondsElapsed = 0;
-var status = "Working";
-var interval;
+let totalSeconds = 0;
+let secondsElapsed = 0;
+let status = "Working";
+let interval;
 
 getTimePreferences();
 
 function getFormattedMinutes() {
-  var secondsLeft = totalSeconds - secondsElapsed;
-
-  var minutesLeft = Math.floor(secondsLeft / 60);
-
-  var formattedMinutes;
+  const secondsLeft = totalSeconds - secondsElapsed;
+  let minutesLeft = Math.floor(secondsLeft / 60);
+  let formattedMinutes;
 
   if (minutesLeft < 10) {
     formattedMinutes = "0" + minutesLeft;
@@ -32,9 +30,8 @@ function getFormattedMinutes() {
 }
 
 function getFormattedSeconds() {
-  var secondsLeft = (totalSeconds - secondsElapsed) % 60;
-
-  var formattedSeconds;
+  const secondsLeft = (totalSeconds - secondsElapsed) % 60;
+  let formattedSeconds;
 
   if (secondsLeft < 10) {
     formattedSeconds = "0" + secondsLeft;
@@ -46,7 +43,7 @@ function getFormattedSeconds() {
 }
 
 function setTime() {
-  var minutes;
+  let minutes;
 
   if (status === "Working") {
     minutes = workMinutesInput.value.trim();
@@ -94,7 +91,7 @@ function stopTimer() {
 }
 
 function toggleStatus(event) {
-  var checked = event.target.checked;
+  const checked = event.target.checked;
 
   if (checked) {
     status = "Working";
@@ -110,7 +107,7 @@ function toggleStatus(event) {
 }
 
 function getTimePreferences() {
-  var preferences = JSON.parse(localStorage.getItem("preferences"));
+  const preferences = JSON.parse(localStorage.getItem("preferences"));
 
   if (preferences) {
     if (preferences.workMinutes) {

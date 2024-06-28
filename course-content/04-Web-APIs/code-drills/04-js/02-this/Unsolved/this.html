@@ -21,7 +21,7 @@
     <!-- Begin our custom JavaScript -->
     <script type="text/javascript">
 
-    var outside = function() {
+    const outside = function() {
 
       //  1. What will be console logged out? What is *this* in this case?
       console.log(this);
@@ -36,7 +36,7 @@
       console.log(this);
     });
 
-    var bob = {
+    let bob = {
       firstName: "Bob",
       lastName: "Smith",
       whoIsBob: function() {
@@ -64,7 +64,7 @@
 
     //     Without editing any of the code below.
     //     Use only the properties in "this."
-    var theChosenOne = function() {
+    const theChosenOne = function() {
 
       console.log(this.firstName + " " + this.lastName);
 

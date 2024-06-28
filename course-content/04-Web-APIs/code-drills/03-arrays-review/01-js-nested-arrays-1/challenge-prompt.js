@@ -2,14 +2,14 @@
 
 
 console.log("====================  Foreword  ====================");
-var array = ["Zero","One","Two","Three","Four","Five"];
+const array = ["Zero","One","Two","Three","Four","Five"];
 // Accessing values in a single-dimensional array is as easy as calling on the index of the index of the target element that you are looking for. 
 // For example, if your target element was the string "Three" in the above array then we would access the index where that element was located: 
 // array[3] and the value held at that index would be returned : "Three"
 
 // Arrays in JS can store any datatype, including a sub-array:
 
-var subArray = ["Zero","One","Two",["Three","Four"],"Five"];
+const subArray = ["Zero","One","Two",["Three","Four"],"Five"];
 
 // To access the element "three" we would first need to access the array that is held at index 3: 
 
@@ -19,7 +19,7 @@ console.log(subArray[3][0]);
 
 // Let us examine a more complicated example: 
 
-var nestedArray = [[1,2], ["nested", ["Radio Flyer Wagon", "Chemistry Set", ["Joy Buzzer", "Yo-Yo"]]]];
+let nestedArray = [[1,2], ["nested", ["Radio Flyer Wagon", "Chemistry Set", ["Joy Buzzer", "Yo-Yo"]]]];
 
 // `nestedArray` is a multi-dimensional data structure, and becoming familiar with accessing nested values is a skill that takes practice. 
 
@@ -28,8 +28,8 @@ var nestedArray = [[1,2], ["nested", ["Radio Flyer Wagon", "Chemistry Set", ["Jo
 // ------------------------------------------------------------------
 console.log("==================== Question 01 ====================");
 // Your target is: "Yo-Yo"
-var nestedArray = [[1,2], ["nested", ["Radio Flyer Wagon", "Chemistry Set", ["Joy Buzzer", "Yo-Yo"]]]];
-var target;
+ nestedArray = [[1,2], ["nested", ["Radio Flyer Wagon", "Chemistry Set", ["Joy Buzzer", "Yo-Yo"]]]];
+let target;
 // assign `target` the value of "Yo-Yo" using the `nestedArray` variable
 // 
 
@@ -42,8 +42,8 @@ console.log(target);
 // ------------------------------------------------------------------
 console.log("==================== Question 02 ====================");
 // Your target is: "Sock Monkey"
-var nestedArray = ["Pop-Up Book", ["Stuffed Mickey Mouse", ["Beach Ball", "Sock Monkey"], "Buck Rogers Rocket Pistol"], "Microscope Set"];
-var target;
+ nestedArray = ["Pop-Up Book", ["Stuffed Mickey Mouse", ["Beach Ball", "Sock Monkey"], "Buck Rogers Rocket Pistol"], "Microscope Set"];
+target;
 // assign `target` the value of "Sock Monkey" using the `nestedArray` variable
 // 
 
@@ -56,8 +56,8 @@ console.log(target)
 // ------------------------------------------------------------------
 console.log("==================== Question 03 ====================");
 // Your target is: 42
-var nestedNumberArray = [3,1,[41,59,265,358,979],32,38,46,[264338,327,9,50,[2,88,42,971],69,3,9,937],510,58,2];
-var target;
+const nestedNumberArray = [3,1,[41,59,265,358,979],32,38,46,[264338,327,9,50,[2,88,42,971],69,3,9,937],510,58,2];
+ target;
 // assign `target` the value of 42 using the `nestedNumberArray` variable
 // 
 
@@ -70,8 +70,8 @@ console.log(target);
 // ------------------------------------------------------------------
 console.log("==================== Question 04 ====================");
 // Your target is is: "Legos"
-var nestedMixedArray = [8,[76,["Bubble Solution"],530,"Slinky","Magic 8 Ball","Legos"],9];
-var target;
+const nestedMixedArray = [8,[76,["Bubble Solution"],530,"Slinky","Magic 8 Ball","Legos"],9];
+target;
 // assign `target` the value of "Legos" using the `nestedMixedArray` variable
 // 
 
@@ -89,8 +89,8 @@ console.log("==================== Question 05 ====================");
 // Objects: Are dictionary-like collections of unique keys and their values. This is a data structure where order does not matter, and elements within aObject are accessed by a key which returns a value.
 
 // Your desired target is: "Value!"
-var nestedObject = {"outer": {"innerKey": {"object": {"key": "Value!"}}}}
-var target;
+const nestedObject = {"outer": {"innerKey": {"object": {"key": "Value!"}}}}
+ target;
 // assign `target` the value of "Value!" using the `nestedObject` variable
 // 
 
@@ -104,8 +104,8 @@ console.log(target);
 console.log("==================== Question 06 ====================");
 // Nested Mixed DataType Access
 // Your target is: "goal"
-var nestedMixedDataTypes = {"array": ["array", {"object": "goal"}]}
-var target;
+const nestedMixedDataTypes = {"array": ["array", {"object": "goal"}]}
+target;
 // assign `target` the value of "goal" using the `nestedMixedDataTypes` variable
 // 
 
@@ -120,7 +120,7 @@ console.log("==================== Question 07 ====================");
 // Iterate over the Array of objects:
 // iterating over nested data structures becomes easier when you have a grasp on how to access nested values. 
 // Using the following array of objects, iterate over the array and print the elements in order.
-var toyArrayOfObjects = [  
+const toyArrayOfObjects = [  
   {  
      "Product":20,
      "item":"Yo-Yo"

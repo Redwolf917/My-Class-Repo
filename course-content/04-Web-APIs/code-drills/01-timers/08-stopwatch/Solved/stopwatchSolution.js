@@ -12,13 +12,13 @@ window.onload = function () {
 };
 
 //  Variable that will hold our setInterval that runs the stopwatch
-var intervalId;
+let intervalId;
 
 // prevents the clock from being sped up unnecessarily
-var clockRunning = false;
+let clockRunning = false;
 
 // Our stopwatch object
-var stopwatch = {
+let stopwatch = {
 
   time: 0,
   lap: 1,
@@ -53,7 +53,7 @@ var stopwatch = {
 
     // DONE: Get the current time, pass that into the stopwatch.timeConverter function,
     //       and save the result in a variable.
-    var converted = stopwatch.timeConverter(stopwatch.time);
+    const converted = stopwatch.timeConverter(stopwatch.time);
 
     // DONE: Add the current lap and time to the "laps" div.
     document.getElementById("laps").innerHTML += "<p>Lap " + stopwatch.lap + " : " + converted + "</p>";
@@ -67,7 +67,7 @@ var stopwatch = {
 
     // DONE: Get the current time, pass that into the stopwatch.timeConverter function,
     //       and save the result in a variable.
-    var converted = stopwatch.timeConverter(stopwatch.time);
+    const converted = stopwatch.timeConverter(stopwatch.time);
     console.log(converted);
 
     // DONE: Use the variable we just created to show the converted time in the "display" div.
@@ -75,8 +75,8 @@ var stopwatch = {
   },
   timeConverter: function (t) {
 
-    var minutes = Math.floor(t / 60);
-    var seconds = t - (minutes * 60);
+    let minutes = Math.floor(t / 60);
+    let seconds = t - (minutes * 60);
 
     if (seconds < 10) {
       seconds = "0" + seconds;

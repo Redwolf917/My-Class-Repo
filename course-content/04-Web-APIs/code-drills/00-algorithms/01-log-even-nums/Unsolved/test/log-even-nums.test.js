@@ -1,12 +1,12 @@
-var expect = chai.expect;
+const expect = chai.expect;
 
 before(function() {
   window._temp = {};
   window._temp.log = console.log;
   window.console.log = (function(...args) {
-    var values = [];
+    const values = [];
 
-    var log = function(args) {
+    const log = function(args) {
       values.push(args);
       window._temp.log(args);
     };
@@ -21,7 +21,7 @@ before(function() {
 
 describe("logEvenNums", function() {
   it("log even numbers 0 through `num`", function() {
-    var num = 13;
+    const num = 13;
 
     logEvenNums(num);
 

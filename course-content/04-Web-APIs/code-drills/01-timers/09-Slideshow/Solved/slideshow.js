@@ -3,13 +3,13 @@
 //  ** SOLUTION **
 
 // TODO: Put links to our images in this image array.
-var images = ["images/bootstrap.png", "images/github-logo.jpg", "images/logo_JavaScript.png"];
+const images = ["images/bootstrap.png", "images/github-logo.jpg", "images/logo_JavaScript.png"];
 
 // Variable showImage will hold the setInterval when we start the slideshow
-var showImage;
+let  showImage;
 
 // Count will keep track of the index of the currently displaying picture.
-var count = 0;
+let count = 0;
 
 // TODO: Use jQuery to run "startSlideshow" when we click the "start" button.
 document.getElementById("start").addEventListener("click", startSlideshow);

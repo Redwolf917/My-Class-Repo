@@ -5,7 +5,7 @@
 console.log("==================== Question 01  ====================");
 // Constructing a Custom Object:
 // So far you have learned about arrays and objects and played with enumerators (loops!). 
-var toyArray = ["Water Balloon","Silly Putty","Paint-by-Numbers Kit",
+let toyArray = ["Water Balloon","Silly Putty","Paint-by-Numbers Kit",
              "Mr. Potato Head","Wiffle Ball","PEZ Dispenser",
              "Mr. Potato Head","Gumby","Hula Hoop","Mr. Potato Head",
              "Troll Doll","Silly Putty","Slip n Slide"]
@@ -23,7 +23,7 @@ var toyArray = ["Water Balloon","Silly Putty","Paint-by-Numbers Kit",
 // }
 
 function returnCustomObject(arr){
-	var obj ={};
+	let obj ={};
   
   // ---------- Your Code Here ----------
 
@@ -38,7 +38,7 @@ function returnCustomObject(arr){
 }
 
 // calling on your function and storing the return value
-var toyInventoryObj = returnCustomObject(toyArray);
+const toyInventoryObj = returnCustomObject(toyArray);
 console.log(toyInventoryObj);
 // This is what I would expect as the return value of the `toyInventoryObj`:
 
@@ -64,7 +64,7 @@ console.log("==================== Question 02  ====================");
 // Return the toy that occurs the greatest number of times using the `toyInventoryObj`.
 
 function greatestFrequency(toyInventory){
-  var maxToy, maxNum;
+  let maxToy, maxNum;
   
   // ---------- Your Code Here ----------
 
@@ -90,13 +90,13 @@ console.log("==================== Question 03  ====================");
 // Custom obj Creation from an Array of Values
 
 // Object creation from an array of elements:
-var toyArray = ["Iron Man vs. Ultron","Iron Man vs. Loki","Park Animals", "Adventure Camp Rafting","Snax"]
+ toyArray = ["Iron Man vs. Ultron","Iron Man vs. Loki","Park Animals", "Adventure Camp Rafting","Snax"]
 // Using the names given in the `toyArray`, construct toy objects and create a new array, `toyObjectArray`, filled with those 5 new `Toy Objects`.
 // The names of the toys should be stored within the `name` key.
 
 function toyArrToObj(arrayOfToys){
   
-  var toyArrayOfObjs = [];
+  let toyArrayOfObjs = [];
 
   // ---------- Your Code Here ----------
 
@@ -110,7 +110,7 @@ function toyArrToObj(arrayOfToys){
 	return toyArrayOfObjs
 }
 
-var newToyArray = toyArrToObj(toyArray)
+const newToyArray = toyArrToObj(toyArray)
 console.log(newToyArray);
 // The newToyArray should look like this:
 
@@ -228,7 +228,7 @@ function createCustomObject(objectArr){
 }
 
 // The following should console.log the `customToyLineObject` to terminal
-var customObject = createCustomObject(toyInventoryArrayOfObjects)// takes the `toyInventoryArrayOfObjects` as an argument
+const customObject = createCustomObject(toyInventoryArrayOfObjects)// takes the `toyInventoryArrayOfObjects` as an argument
 console.log(customObject);
 
 // This is a tester function that will perform a quick spot check to test if your code is working
@@ -272,8 +272,8 @@ function areDups(arr){
 }
 
 // These arrays are going to be used to test your function
-var duplicatesOne = [1,2,4,5,77,8,19,4];
-var duplicatesTwo = [32,4,60,56,78,3,9];
+let duplicatesOne = [1,2,4,5,77,8,19,4];
+let duplicatesTwo = [32,4,60,56,78,3,9];
 
 // This should console log true:
 console.log(areDups(duplicatesOne));

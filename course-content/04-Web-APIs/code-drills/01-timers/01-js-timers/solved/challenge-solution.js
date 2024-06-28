@@ -15,7 +15,7 @@ function questionTwo () {
   alert("Question 2");
 }
 
-var questionTwo = setTimeout(questionOne, 1000 * 15);
+let question_two = setTimeout(questionOne, 1000 * 15);
 
 
 // Remove the timer you just made for Question 2
@@ -24,11 +24,11 @@ clearTimeout(questionTwo);
 
 console.log("==================== Question 03 ====================");
 // Create a timer that creates an alert that says "Question 3 part 1" after 15 seconds
-var questionThreePtOne = setTimeout(function() {alert("Question 3 part 1")}, 1000 * 15);
+const questionThreePtOne = setTimeout(function() {alert("Question 3 part 1")}, 1000 * 15);
 
 
 // Create a timer that creates an alert that says "Question 3 part 2" after 16 seconds
-var questionThreePtTwo = setTimeout(function() {alert("Question 3 part 2")}, 1000 * 16);
+const questionThreePtTwo = setTimeout(function() {alert("Question 3 part 2")}, 1000 * 16);
 
 
 console.log("==================== Question 04 ====================");

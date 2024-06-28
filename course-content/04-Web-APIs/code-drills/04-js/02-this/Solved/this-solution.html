@@ -19,7 +19,7 @@
     <!-- Script -->
     <script type="text/javascript">
 
-      var outside = function() {
+      const outside = function() {
 
         //  1. What will be console logged out? What is *this* in this case?
         console.log(this);
@@ -36,7 +36,7 @@
         //  Answer: It will console log the button
       });
 
-      var bob = {
+      let bob = {
         firstName: "Bob",
         lastName: "Smith",
         whoIsBob: function() {
@@ -61,16 +61,16 @@
 
       // 6. Fill in the code below to make the "theChosenOne" function, log "Keanu Reeves."
       // Put code here
-      var firstName = "Keanu";
+      let firstName = "Keanu";
 
       // and put code here.
-      var lastName = "Reeves";
+      let lastName = "Reeves";
 
 
       // window.firstName is Keanu
       // window.lastName is Reeves
       // Don't touch any of the code below!!
-      var theChosenOne = function() {
+      const theChosenOne = function() {
 
         // *this* is the window here
         console.log(this.firstName + " " + this.lastName);

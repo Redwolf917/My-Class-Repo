@@ -1,16 +1,16 @@
-var statusSpan = document.querySelector("#status");
-var statusToggle = document.querySelector("#status-toggle");
-var playButton = document.querySelector("#play");
-var pauseButton = document.querySelector("#pause");
-var stopButton = document.querySelector("#stop");
-var minutesDisplay = document.querySelector("#minutes");
-var secondsDisplay = document.querySelector("#seconds");
-var workMinutesInput = document.querySelector("#work-minutes");
-var restMinutesInput = document.querySelector("#rest-minutes");
+const statusSpan = document.querySelector("#status");
+const statusToggle = document.querySelector("#status-toggle");
+const playButton = document.querySelector("#play");
+const pauseButton = document.querySelector("#pause");
+const stopButton = document.querySelector("#stop");
+const minutesDisplay = document.querySelector("#minutes");
+const secondsDisplay = document.querySelector("#seconds");
+const workMinutesInput = document.querySelector("#work-minutes");
+const restMinutesInput = document.querySelector("#rest-minutes");
 
-var totalSeconds = 0;
-var secondsElapsed = 0;
-var interval;
+let totalSeconds = 0;
+let secondsElapsed = 0;
+let interval;
 
 function startTimer() {
   // Write code to start the timer here

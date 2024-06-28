@@ -2,13 +2,13 @@
 // Students: follow the instructions below:
 
 // TODO: Put links to our images in this image array.
-var images = ["images/bootstrap.png"];
+const images = ["images/bootstrap.png"];
 
 // Variable showImage will hold the setInterval when we start the slideshow
-var showImage;
+let showImage;
 
 // Count will keep track of the index of the currently displaying picture.
-var count = 0;
+let count = 0;
 
 // TODO: Use jQuery to run "startSlideshow" when we click the "start" button.
 

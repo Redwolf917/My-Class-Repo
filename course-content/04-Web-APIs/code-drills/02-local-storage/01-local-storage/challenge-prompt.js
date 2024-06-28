@@ -4,7 +4,7 @@
 // Given a string of 1s and 0s, this function colors the buttons on the page
 // depending upon the sequence of the digits
 function displayButtons(buttons){
-  for (var i = 0; i < buttons.length; i++) {
+  for (let i = 0; i < buttons.length; i++) {
     $("#card-" + i).removeClass("bg-success bg-danger");
     if (buttons[i] === "1"){
       $("#card-" + i).addClass("bg-success");
@@ -28,7 +28,7 @@ function replaceChar(str, index, val) {
 $(function() {
 
   // This string represents which of our buttons are green and which are red
-  var buttonColors = "111111111111";
+  let buttonColors = "111111111111";
 
 
   // This section of code should set the value of buttonColors to be whatever 
@@ -53,7 +53,7 @@ $(function() {
     // Each button carries the index of the character in the buttonColors string
     // that is determining its color. We pull it out and store it inside the
     // `index` variable
-    var index = parseInt($(this).data("button"));
+    const index = parseInt($(this).data("button"));
 
 
     // Your code here should change the buttonColors string to reflect the change 
