@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|06| [Mock Interview Session](course-content/06-mock-interview-01) | Pseudocode, Visualization, Communication, Whiteboarding, Interview Practice  |
 |05| [Project One](course-content/05-Project-1/README.md) | Client Side Data Driven Web Application; Git Branch, Git Pull Request, Agile Practices |
 |04| [Web APIs](course-content/04-Web-APIs/README.md) | Web APIs and interfaces, Timers, Document Object Model (DOM), Getting, selecting, traversing, and manipulating elements, Form events, Keyboard and mouse events, Bubbling and propagation, Event delegation, Data Attribues, Local Storage, Git pull request, Git Branch|
 |03| [Javascript](course-content/03-javascript/README.md)| Variables, Strings, Booleans, Numbers, Objects, Arrays; conditionals, For loops, while loops, until loops; this, Functions, Scope, Method, Objects |
