@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|07| [NodeJS](course-content/07-NodeJS/README.md) |  Node, Internal & External Packages: FS, Request, process.argv ;NPM, Inquirer, package.json AND ES6, Constructing Classes, Destructuring, Arrow notation `() => {}`, Object destructuring `[...variable]` and `{...variable}`, Array Methods, Git Fork |
 |06| [Mock Interview Session](course-content/06-mock-interview-01) | Pseudocode, Visualization, Communication, Whiteboarding, Interview Practice  |
 |05| [Project One](course-content/05-Project-1/README.md) | Client Side Data Driven Web Application; Git Branch, Git Pull Request, Agile Practices |
 |04| [Web APIs](course-content/04-Web-APIs/README.md) | Web APIs and interfaces, Timers, Document Object Model (DOM), Getting, selecting, traversing, and manipulating elements, Form events, Keyboard and mouse events, Bubbling and propagation, Event delegation, Data Attribues, Local Storage, Git pull request, Git Branch|
