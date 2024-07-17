@@ -39,7 +39,7 @@ const cardedMoviePatrons = moviePatrons.map(patron => {
   // Copy the object being iterated over
   // Spread Operator (what is this?)
   // const pObj = { ...patron };
-  // const pObj = { name: patron.name, age: patron.age };
+  const pObj = { name: patron.name, age: patron.age };
 
 
 

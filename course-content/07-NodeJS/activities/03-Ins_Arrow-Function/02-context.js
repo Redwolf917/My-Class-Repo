@@ -37,7 +37,7 @@ module.exports.context = "global";
 console.log(this);
 // {context : "global"}
 
-var obj = {
+const obj = {
     context: "obj",
     arrowFn: () => console.log("Global.context: ", this.context),
  
