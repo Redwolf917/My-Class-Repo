@@ -14,11 +14,11 @@ addRest(3, 3); // => 6
 addRest(1, 1, 4, 5); // => 11
 
 
-function add(...nums) {
-  let sum = 0;
-  for (let num of nums) sum += num;
-  return sum;
-}
+// function add(...nums) {
+//   let sum = 0;
+//   for (let num of nums) sum += num;
+//   return sum;
+// }
 
 add(1); // => 1
 add(3, 3); // => 6
@@ -60,13 +60,13 @@ const secondArr = [...firstArr];
 secondArr[0].nickname = "Furball";
 
 console.log("firstArr", firstArr);
-[
-  { name: 'Farley', nickname: 'Furball' },
-  { name: 'Asher' },
-  { name: 'Mr, Snugggles' }
+// [
+//   { name: 'Farley', nickname: 'Furball' },
+//   { name: 'Asher' },
+//   { name: 'Mr, Snugggles' }
 
 
-]
+// ]
 
 
 
