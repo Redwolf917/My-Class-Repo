@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|08| [TypeScript and OOP](course-content/08-TypeScript-and-OOP/README.md) | Javascript Objects, OOP, Polymorphism, Promises, Javascript classes,TypeScript Types, TypeScript Variables, TypeScript Arrays, TypeScript Functions, TypeScript Objects, Composition vs. Inheritance, Inheritance and the prototype chain|
 |07| [NodeJS](course-content/07-NodeJS/README.md) |  Node, Internal & External Packages: FS, Request, process.argv ;NPM, Inquirer, package.json AND ES6, Constructing Classes, Destructuring, Arrow notation `() => {}`, Object destructuring `[...variable]` and `{...variable}`, Array Methods, Git Fork |
 |06| [Mock Interview Session](course-content/06-mock-interview-01) | Pseudocode, Visualization, Communication, Whiteboarding, Interview Practice  |
 |05| [Project One](course-content/05-Project-1/README.md) | Client Side Data Driven Web Application; Git Branch, Git Pull Request, Agile Practices |
