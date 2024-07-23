@@ -55,8 +55,14 @@
 |[18-Stu_Modularization](activities/18-Stu_Modularization)| Implement modules |
 |[19-Ins_npm](activities/19-Ins_npm)| Introduction to `npm` |
 |[20-Stu_npm](activities/20-Stu_npm)| Initialize projects using `npm` |
-
-
+|[21-Ins_Colors](activities/21-Ins_Colors)| Introduction to `npm colors` |
+|[22-Stu_Colors](activities/22-Stu_Colors)| Activity `npm colors`|
+|[23-Ins_Basic-Inquirer](activities/23-Ins_Basic-Inquirer)| Introduction to Basic Inquirer |
+|[24-Stu_Basic-Inquirer](activities/24-Stu_Basic-Inquirer)| Activity - Basic Inquirer |
+|[25-Ins_Advanced-Inquirer](activities/25-Ins_Advanced-Inquirer)| Introduction to Advanced Inquirer |
+|[26-Stu_Advanced-Inquirer](activities/26-Stu_Advanced-Inquirer)| Advanced Inquirer activity |
+|[27-Evr_Git-Cherry-Pick](activities/27-Evr_Git-Cherry-Pick)| Git Cherry Pick activity |
+|[28-Stu_Mini-project](activities/31-Stu_Mini-project)| CLI Mini Project |
 
 
 
