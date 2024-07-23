@@ -4,6 +4,11 @@
 export const getCircleArea = (radius) => Math.PI * radius * radius;
 export const getSphereVolume = (radius) => 1.33 * Math.PI * radius * radius * radius;
 
+// export { 
+//     getCircleArea,
+//     getSphereVolume
+//  }; 
+
 //for the default export, we define the variable first and then we can export it.
 const getCircumference = (radius) => 2 * Math.PI * radius;
 
